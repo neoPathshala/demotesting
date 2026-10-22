@@ -1,2 +1,5 @@
-runtime:
-  node: "20"
+apps:
+  - name: admin-portal
+    build_root: adminPortal
+    build_command: npm run build
+    output_dir: out
